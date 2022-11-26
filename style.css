@@ -1,7 +1,160 @@
 body {
-	background-color: #3e9e42;
+	font-family: 'Roboto', sans-serif;
+	margin: 1.5vw
 }
 
-. focim {
+.focim {
+	color: white;
 	text-align: center;
+	font-size: 2.5vw;
+}
+
+.alcim {
+	color: white;
+	text-align: center;
+	font-size: 2vw;
+}
+
+/*-----------[Gombok]-----------*/
+.buttonline {
+  text-align: center;
+  line-height: 54px;
+}
+
+.ugyint {
+	text-align: center;
+	line-height: 54px;
+        width: auto;
+        height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { text-decoration: none; color: #80d4ff; }
+
+a:visited { text-decoration: none; color: #80d4ff; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+button.fancy {
+  appearance: none;
+  border: none;
+  border-radius: 10px;
+  padding: 2px 20px 5px 10px;
+  width: 15vw;
+  
+  cursor: pointer;
+  
+  color: #fff;
+  
+  text-align: center;
+  
+  font-size: 2vw;
+  line-height: 5vw;
+  
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.sitesmall {
+	text-align: center;
+}
+
+.sitelarge {
+	text-align: center;
+	font-size: 1.3vw;
+	color: gray;
+}
+
+button.wider {
+  appearance: none;
+  border: none;
+  border-radius: 10px;
+  padding: 2px 20px 5px 10px;
+  width: 356px;
+  
+  cursor: pointer;
+  
+  color: #fff;
+  
+  text-align: center;
+  
+  font-weight: 600;
+  line-height: 60px;
+
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+/*-----------[END]-----------*/
+
+.lgomb {
+	padding: 0.25vw;
+}
+
+/*Vissza gomb*/
+.backbutton {
+  position: fixed; /* Fixed/sticky position */
+  top: 20px; /* Place the button at the bottom of the page */
+  left: 30px; /* Place the button 30px from the right */
+}
+
+button.vissza {
+  appearance: none;
+  border: none;
+  border-radius: 10px;
+  padding: 2px 20px 5px 10px;
+  width: 10vw;
+  
+  cursor: pointer;
+  
+  color: #fff;
+  
+  text-align: center;
+  
+  font-size: 1.2vw;
+  line-height: 3vw;
+  
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button.lista {
+  appearance: none;
+  border: none;
+  border-radius: 10px;
+  padding: 2px 20px 5px 10px;
+  width: 30vw;
+  
+  cursor: pointer;
+  
+  color: #fff;
+  
+  text-align: center;
+  
+  font-size: 2vw;
+  line-height: 3vw;
+  
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td .grey {
+	background-color: grey;
 }
