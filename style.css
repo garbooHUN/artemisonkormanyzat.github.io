@@ -1,5 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	text-align: center;
 	margin: 1.5vw
 }
 
@@ -163,4 +164,9 @@ table {
 
 td .grey {
 	background-color: grey;
+}
+
+img.logo {
+	width: 20vw;
+	height: 20vw;
 }
