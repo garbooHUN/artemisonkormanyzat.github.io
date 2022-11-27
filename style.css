@@ -2,6 +2,12 @@ body {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin: 1.5vw
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .focim {
