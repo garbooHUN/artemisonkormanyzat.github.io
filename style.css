@@ -15,6 +15,12 @@ body {
 	font-size: 2vw;
 }
 
+.szoveg {
+	color: white;
+	text-align: center;
+	font-size: 1.5vw;
+}
+
 /*-----------[Gombok]-----------*/
 .buttonline {
   text-align: center;
